@@ -1,0 +1,288 @@
+.header-border {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.header-border ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header-border ul li {
+    display: inline;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 20px;
+}
+
+.header-border ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-user-name {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.menu_item.active  {
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.header-border ul li a:hover {
+    color: blue;
+}
+
+.auth_block {
+    width: 500px;
+    height: 400px;
+    margin: 5% auto;
+    border: 1px solid black;
+}
+
+.auth_block_head {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.auth_block label {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.auth_block input {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 45px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.auth_block input:focus {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.auth_button {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth_button:hover {
+    border: 2px solid blue;
+}
+
+main {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.main_form {
+    display: block;
+    padding: 5% 7%;
+    font-weight: normal;
+}
+
+.main_form button {
+    display: block;
+    padding: 2%;
+}
+
+.main_form button:hover {
+    border-color: blue;
+}
+
+.main_form div {
+    display: block;
+    padding-bottom: 5%;
+}
+
+.input_access_token {
+    margin-left: 8.5%;
+    padding: 5px;
+    outline: none;
+}
+
+.input_access_token:focus {
+    border: 2px solid blue;
+}
+
+.input_is_transfer_prices {
+    margin-left: 3.5%;
+}
+
+.table_goods_page {
+    display: block;
+    padding-top: 5%;
+    font-weight: normal;
+    border-collapse: collapse;
+    width: 680px;
+    height: 400px;
+    margin: 2px;
+}
+
+.table_goods_page th, .table_goods_page td {
+    border: 1px solid grey;
+    width: 680px;
+    padding: 10px;
+}
+
+.table_goods_page td {
+    text-align: left;
+}
+
+.table_users_page {
+    display: block;
+    font-weight: normal;
+    border-collapse: collapse;
+    width: 680px;
+    height: 400px;
+    margin: 2px;
+}
+
+.table_users_page th, .table_users_page td {
+    border: 1px solid grey;
+    width: 680px;
+    padding: 10px;
+}
+
+.table_users_page td {
+    text-align: left;
+}
+
+.add_new_user_button {
+    display: block;
+    margin: 3%;
+    font-weight: normal;
+    border-radius: 15px;
+    border-color: gray;
+    cursor: pointer;
+    width: 15%;
+    padding: 2%;
+}
+
+.add_new_user_button:hover {
+    border: 2px solid blue;
+}
+
+.fa-trash {
+    margin-left: 45%;
+}
+
+.fa-trash:hover {
+    color: blue;
+}
+
+.create_user_block {
+    width: 500px;
+    height: 550px;
+    margin: 5% auto;
+    border: 1px solid black;
+}
+
+.create_user_block p {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.create_user_block label {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.create_user_block input {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 45px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.create_user_block input:focus {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.create_user_button {
+    width: 35%;
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.create_user_button:hover {
+    border: 2px solid blue;
+}
+
+.create_user_button_block {
+    display: block;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+.error_404 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Book Antiqua";
+    margin: 0 auto;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.error_404 img {
+    padding-left: 45%;
+}
+
+.flash_message_error {
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+    background-color: lightcoral;
+    margin-left: 31%;
+}
+
+.flash_message_success {
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+    background-color: lightgreen;
+    margin-left: 31%;
+}
+
+.exit_button {
+    margin: 97%;
+    padding-bottom: 0px;
+
+}
+
+.delete_button {
+    border: none;
+    background-color: white;
+    font-size: large;
+    padding-left: 38%;
+}
