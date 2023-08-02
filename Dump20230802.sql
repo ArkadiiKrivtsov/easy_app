@@ -60,7 +60,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES ('token',0,1);
+INSERT INTO `settings` VALUES ('token',1,1);
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,8 +76,9 @@ CREATE TABLE `users` (
   `email` varchar(255) CHARACTER SET utf8 NOT NULL,
   `password` varchar(255) CHARACTER SET utf8 NOT NULL,
   `name` varchar(45) CHARACTER SET utf8 NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -86,7 +87,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'ark@mail.ru','$2y$10$5/xeAvPhDoaVtQOYXx5IH.ZAWEM.Oi9nmAsNhr7x1eFQvmTlannzG','Админ Админов'),(2,'vladya@gmail.com','$2y$10$V2uLyGGdibIidCXq2FkoOuTuRhJDnJ69H0GHKBM2O8mD4XaHfUkAK','Владимир Владимирович'),(5,'admin@example.ru','$2y$10$I7nIY33xFkIV2pnKBR5wQOxDWWhx1khT.KVv18xxD7fFSOzM44FMO','Евгений Евгениев'),(6,'mail@mail.ru','$2y$10$ys/h2qLs9fEpI1zNcLz4G.0.XdkgYvC8Hn56Wmt8RzCYSRQWyYOFO','Аркадий Аркадиев');
+INSERT INTO `users` VALUES (1,'ark@mail.ru','$2y$10$5/xeAvPhDoaVtQOYXx5IH.ZAWEM.Oi9nmAsNhr7x1eFQvmTlannzG','Админ Админов'),(2,'vladya@gmail.com','$2y$10$V2uLyGGdibIidCXq2FkoOuTuRhJDnJ69H0GHKBM2O8mD4XaHfUkAK','Владимир Владимирович'),(6,'mail@mail.ru','$2y$10$ys/h2qLs9fEpI1zNcLz4G.0.XdkgYvC8Hn56Wmt8RzCYSRQWyYOFO','Аркадий Аркадиев'),(7,'yliya@gmail.com','$2y$10$geQ6.rXQn7Eh0/5u7xwouuMh8jwIMIyGrfCEPVlWe3BahclQ5FDGy','Иль Сычиков');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -99,4 +100,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-31 17:13:41
+-- Dump completed on 2023-08-02  9:57:58

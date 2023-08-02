@@ -34,5 +34,5 @@ try {
     }
 
 } catch (Exception $exception) {
-    include APP_DIR . PAGE_DIR . 'errors\404.php';
+    include APP_DIR . PAGE_DIR . 'errors/404.php';
 }

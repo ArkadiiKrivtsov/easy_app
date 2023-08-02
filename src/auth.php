@@ -3,7 +3,7 @@
 try {
     if (!empty($_POST)) {
         $email = $_SESSION["user_email"] = htmlspecialchars($_POST["email"]);
-        $password = $_SESSION["password"] = htmlspecialchars($_POST["password"]);
+        $password = htmlspecialchars($_POST["password"]);
         $sql = "SELECT * FROM users WHERE `email` = '$email'";
         $query_result = $connection->query($sql)->fetch_assoc();
 

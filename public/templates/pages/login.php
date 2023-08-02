@@ -1,5 +1,5 @@
 <?php
-require_once APP_DIR . '\src\auth.php';
+require_once APP_DIR . '/src/auth.php';
 ?>
 
 <!doctype html>
@@ -12,13 +12,12 @@ require_once APP_DIR . '\src\auth.php';
     <link rel="stylesheet" href= "assets/css/main.css">
     <link rel="shortcut icon" href= "assets/images/icon/favicon.png">
 
-    <!--    file:///C:/Users/Venersound/Desktop/my_app/final_task/public/assets/css/main.css-->
     <title>Авторизация</title>
 </head>
 <body>
 <!--Подключаем флеш сообщения-->
 <?php
-require_once APP_DIR . PAGE_DIR . 'layout\flash_messages.php';
+require_once APP_DIR . PAGE_DIR . 'layout/flash_messages.php';
 ?>
         <div class="auth_block">
             <p class="auth_block_head">Авторизация</p>

@@ -17,8 +17,9 @@ require_once APP_DIR . '\src\update_settings_logic.php';
 <body>
 <!--Подключаем флеш сообщения-->
 <?php
-require_once APP_DIR . PAGE_DIR . 'layout\flash_messages.php';
-require_once __DIR__ . '\layout\header.php';
+require_once APP_DIR . PAGE_DIR . 'layout/flash_messages.php';
+//Подключаем хэдер
+require_once __DIR__ . '/layout/header.php';
 ?>
 
 <main>

@@ -1,5 +1,5 @@
 <?php
-require_once APP_DIR . '\src\user_creation_logic.php';
+require_once APP_DIR . '/src/user_creation_logic.php';
 ?>
 
 <!doctype html>
@@ -17,7 +17,7 @@ require_once APP_DIR . '\src\user_creation_logic.php';
 <body>
 <!--Подключаем флеш сообщения-->
 <?php
-require_once APP_DIR . PAGE_DIR . 'layout\flash_messages.php';
+require_once APP_DIR . PAGE_DIR . 'layout/flash_messages.php';
 ?>
 
 
