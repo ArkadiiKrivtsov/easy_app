@@ -1,5 +1,5 @@
 <?php
-require_once APP_DIR . '\src\update_settings_logic.php';
+require_once APP_DIR . '/src/update_settings_logic.php';
 ?>
 
 <!DOCTYPE html>
