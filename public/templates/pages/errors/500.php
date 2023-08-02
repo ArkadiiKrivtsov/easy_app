@@ -7,10 +7,10 @@
 
     <title>ERROR</title>
 </head>
-
-<div class="error_404"
+<body>
+<div class="error_404">
 <h1>OPS!</h1>
-    <img src="assets/images/fail.png" width="15%">
+    <img src="assets/images/fail.png" width="15%" alt="Изображение с ошибкой">
     <p> Техническая неполадка! </p>
 </div>
 
